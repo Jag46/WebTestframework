@@ -1,0 +1,76 @@
+{
+	"name": "webdriverio-with-cucumber-bdd",
+	"version": "1.0.0",
+	"description": "WebDriver-v7 bindings for Node.js with Cucumber",
+	"scripts": {
+		"test": "node_modules/.bin/wdio ./test/config/local.config.js",
+		"test-docker": "node_modules/.bin/wdio ./test/config/docker.config.js",
+		"test-selenoidLocal": "node_modules/.bin/wdio ./test/config/selenoidLocal.config.js",
+		"test-master": "node_modules/.bin/wdio ./test/config/master.config.js",
+		"test-browserstack": "node_modules/.bin/wdio ./test/config/browserstackConfig/browserstack.config.js",
+		"test-s20": "node_modules/.bin/wdio ./test/config/browserstackConfig/samsungGalaxyS20Compatibility.config.js",
+		"test-s21": "node_modules/.bin/wdio ./test/config/browserstackConfig/samsungGalaxyS21Compatibility.config.js",
+		"test-s10": "node_modules/.bin/wdio ./test/config/browserstackConfig/samsungGalaxyS10Compatibility.config.js",
+		"test-iphone12": "node_modules/.bin/wdio ./test/config/browserstackConfig/iphone12Compatibility.config.js",
+		"test-iphone11": "node_modules/.bin/wdio ./test/config/browserstackConfig/iphone11Compatibility.config.js",
+		"test-iphonexs": "node_modules/.bin/wdio ./test/config/browserstackConfig/iphonexsCompatibility.config.js",
+		"test-win10": "node_modules/.bin/wdio ./test/config/browserstackConfig/win10OSCompatibility.config.js",
+		"test-win81": "node_modules/.bin/wdio ./test/config/browserstackConfig/win81OSCompatibility.config.js",
+		"test-win7": "node_modules/.bin/wdio ./test/config/browserstackConfig/win7OSCompatibility.config.js",
+		"test-catalina": "node_modules/.bin/wdio ./test/config/browserstackConfig/macCatalinaOSCompatibility.config.js",
+		"test-bigsur": "node_modules/.bin/wdio ./test/config/browserstackConfig/macBigSurOSCompatibility.config.js",
+		"test-mojave": "node_modules/.bin/wdio ./test/config/browserstackConfig/macMojaveOSCompatibility.config.js",
+		"smokeTest-preRl": "node_modules/.bin/wdio ./test/config/smokeTest.conf.js --serverUrls.environment=preRl"
+	},
+	"dependencies": {
+		"@babel/cli": "^7.14.5",
+		"@babel/core": "^7.14.6",
+		"@babel/preset-env": "^7.14.7",
+		"@babel/register": "^7.14.5",
+		"@wdio/browserstack-service": "^7.7.5",
+		"@wdio/cucumber-framework": "^7.7.5",
+		"@wdio/local-runner": "^7.7.5",
+		"@wdio/selenium-standalone-service": "^7.7.5",
+		"@wdio/spec-reporter": "^7.7.5",
+		"@wdio/sync": "^7.7.5",
+		"axios": "^0.21.1",
+		"browserstack-local": "^1.4.8",
+		"chai": "^4.3.4",
+		"chai-as-promised": "^7.1.1",
+		"dot-object": "^2.1.4",
+		"enhanced-resolve": "^5.8.2",
+		"faker": "^5.5.3",
+		"fs-extra": "^10.0.0",
+		"qs": "^6.10.1",
+		"wdio-html-nice-reporter": "^7.7.12"
+	},
+	"devDependencies": {
+		"@wdio/cli": "^7.7.5",
+		"@wdio/junit-reporter": "^7.7.3",
+		"chromedriver": "^91.0.1",
+		"eslint": "^7.30.0",
+		"eslint-config-standard": "^16.0.3",
+		"eslint-plugin-import": "^2.23.4",
+		"eslint-plugin-node": "^11.1.0",
+		"eslint-plugin-promise": "^5.1.0",
+		"eslint-plugin-react": "^7.24.0",
+		"eslint-plugin-standard": "^4.1.0",
+		"multiple-cucumber-html-reporter": "^1.18.0",
+		"wdio-chromedriver-service": "^7.2.0",
+		"wdio-cucumberjs-json-reporter": "^4.0.0",
+		"wdio-docker-service": "^3.1.2",
+		"wdio-intercept-service": "^4.1.6"
+	},
+	"babel": {
+		"presets": [
+			[
+				"@babel/preset-env",
+				{
+					"targets": {
+						"node": "current"
+					}
+				}
+			]
+		]
+	}
+}
