@@ -1,0 +1,16 @@
+{
+  "ipAddress":"192.136.1.13",
+  "userBrowserLang":"en-GB",
+  "userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36",
+  "JourneyType":"Authenticated",
+ "originalProductID":"7002",
+  "channel":{
+    "employeeId":"Remote",
+    "businessTxCommChannel":".CO.UK",
+    "functionalUnit":"0572",
+    "sourceSystemID":"EDB",
+    "originatingChannel":"Web",
+    "distributionChannelTypeCode":"CODE"
+  },
+  "appId":"21144-HJGL9B"
+}

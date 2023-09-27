@@ -1,0 +1,14 @@
+{
+    "request": {
+      "requestGUID": "e88dca30-adf5-11e9-a207-c32f51b12150",
+      "commands": {
+        "saveDirectDebitCommand": {
+          "isMonthlyDirectDebitSetupRequired": false,
+          "preferredRePaymentOption": null,
+          "sortCode": "123456",
+          "accountNumber": "12345678",
+          "eachMonthPayOffOption": "The minimum amount Test"
+        }
+      }
+    }
+  }

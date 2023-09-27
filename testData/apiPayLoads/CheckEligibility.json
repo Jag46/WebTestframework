@@ -1,0 +1,11 @@
+{
+  "eligibilityDetails": {
+    "applicantRevision":"d718f9e8-0d94-4b3a-9462-6ce4634b1aec",
+    "applicationRevision": "ba165139-ba86-4bf9-9dca-e49cbaee2e62",
+    "applicantId":"9d95a7e1-4a54-44cd-a17c-e912f2b25925",
+    "sortCode": "123456",
+    "accountNumber": "12345678",
+    "productId": "7002",
+    "newProductId": "7006"
+  }
+}
